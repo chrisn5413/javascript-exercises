@@ -29,12 +29,12 @@ const power = function(base, power) {
 };
 
 const factorial = function(number) {
-  let sum = 1;
+  let product = 1;
   for (let i = 1; i <= number; i++) {
-    sum *= i;
+    product *= i;
   }
 
-  return sum;
+  return product;
 };
 
 // Do not edit below this line
